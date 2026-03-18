@@ -88,8 +88,9 @@ for all odd $n \leq 3$.
 -/
 @[category research open, AMS 5]
 theorem numTransversalsZn : answer(sorry) ↔
-    ∀ n > 3, Odd n → ∃ᵉ (c₁ > (0 : ℝ)) (c₂ < (1 : ℝ)) (c₁ < c₂),
-      (z n : ℝ) ∈ Set.Icc (c₁ ^ n * n.factorial) (c₂ ^ n * n.factorial) := by
+      ∃ᵉ (c₁ > (0 : ℝ)) (c₂ < (1 : ℝ)) (_ : c₁ < c₂),
+      ∀ n > 3, Odd n →
+        (z n : ℝ) ∈ Set.Icc (c₁ ^ n * n.factorial) (c₂ ^ n * n.factorial) := by
   sorry
 
 /--
