@@ -32,7 +32,7 @@ variable {n : ℕ}
 
 /--
 Conjecture 3.2 in [Wa2011]:
-Each latin square of odd order has at least one transversal.
+Each Latin square of odd order has at least one transversal.
 -/
 @[category research open, AMS 5]
 theorem oddOrderLatinSquareTransversal : answer(sorry) ↔
