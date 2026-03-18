@@ -39,6 +39,22 @@ theorem oddOrderLatinSquareTransversal : answer(sorry) ↔
     Odd n → ∀ (L : LatinSquare n), ∃ σ, IsTransversal L σ := by
   sorry
 
+/--
+The conjecture is known to be true for $n \leq 9$.
+-/
+@[category research solved, AMS 5]
+theorem oddOrderLeq9LatinSquareTransversal : answer(sorry) ↔
+    ∀ n ≤ 9, Odd n → ∀ (L : LatinSquare n), ∃ σ, IsTransversal L σ := by
+  sorry
+
+/--
+The smallest odd number for which this conjecture is not known is 11.
+-/
+@[category research open, AMS 5]
+theorem latinSquareOrder11Transversal : answer(sorry) ↔
+    ∀ (L : LatinSquare 11), ∃ σ, IsTransversal L σ := by
+  sorry
+
 /-
 TODO(rao107): Conjecture 4.4 in [Wa2011]:
 For all even $n \geq 10$ and each $m \in \\{0, 1, ..., n - 3, n - 2, n\\} there exists a latin
@@ -89,7 +105,7 @@ for all odd $n \geq 3$.
 @[category research open, AMS 5]
 theorem numTransversalsZn : answer(sorry) ↔
       ∃ᵉ (c₁ > (0 : ℝ)) (c₂ < (1 : ℝ)) (_ : c₁ < c₂),
-      ∀ n > 3, Odd n →
+      ∀ n ≥ 3, Odd n →
         (z n : ℝ) ∈ Set.Icc (c₁ ^ n * n.factorial) (c₂ ^ n * n.factorial) := by
   sorry
 
