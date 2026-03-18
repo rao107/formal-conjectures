@@ -22,7 +22,7 @@ import FormalConjectures.Util.ProblemImports
 This file formalizes some conjectures and theorems around latin squares.
 
 *References:*
-* [Wa2011] Wanless, Ian. "Transversals in latin squares: a survey."
+* [Wa2011] Wanless, Ian. "Transversals in Latin Squares: A Survey."
   Surveys in Combinatorics 2011, R. Chapman, Ed. Cambridge University Press, 2011, pp. 403–437.
   https://users.monash.edu.au/~iwanless/papers/transurveyBCC.pdf
 * https://en.wikipedia.org/wiki/Problems_in_Latin_squares
