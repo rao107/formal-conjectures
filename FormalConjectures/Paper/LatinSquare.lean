@@ -84,7 +84,7 @@ There exist real constants $0 < c_1 < c_2 < 1$ such that
 $$
 c_1^n n! \leq z_n \leq c_2^n n!
 $$
-for all odd $n \leq 3$.
+for all odd $n \geq 3$.
 -/
 @[category research open, AMS 5]
 theorem numTransversalsZn : answer(sorry) ↔
